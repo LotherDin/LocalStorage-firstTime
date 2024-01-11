@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 190, 253);
+}
+#containerPrincipale{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+#loginContainer{
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    visibility:visible;
+
+}
+#esci{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0%;
+    visibility: hidden;
+   
+}
+#btnEsci{
+    position: absolute;
+    top: 0%;
+    left: 90%;
+}
+h1{
+    text-align: center;
+    margin-left: 40%;
+    position: absolute;
+    bottom: 0%;
+}
